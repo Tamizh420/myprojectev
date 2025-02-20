@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#evid {
+    margin-top: 20px;
+}
+
+/* Styling for form and search bar */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+input[type="submit"] {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+/* Map Container */
+.map-container {
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card-based layout for station details */
+.station-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.station-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.station-info {
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Styling for the title and important information */
+.station-info p {
+    font-size: 15px;
+}
+
+.station-info strong {
+    color: #ff5a00;
+    font-weight: bold;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .map-container iframe {
+        width: 100%;
+    }
+}

@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full Screen Background */
+.bg-light {
+    background-color: #f7f7f7;
+}
+
+/* Centering Login Box */
+.login-container {
+    width: 100%;
+    max-width: 380px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Inputs */
+.custom-input {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: #fd7e2a;
+}
+
+/* Button Styles */
+.custom-btn {
+    background-color: #fd7e2a;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #fd7e2a;
+}
+
+/* Header Text */
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #fd7e2a;
+    font-weight: 600;
+}
+
+/* Link Style */
+a {
+    font-size: 14px;
+    color: #fd7e2a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Placeholder Style */
+.custom-input::placeholder {
+    color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        width: 100%;
+        padding: 20px;
+    }
+}

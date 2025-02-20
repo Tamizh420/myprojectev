@@ -1,0 +1,29 @@
+div {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+
+
+
+#s1 {
+    background-color: rgb(119, 119, 204);
+    width: fit-content;
+    border-radius: 20%;
+}
+
+#s2 {
+    padding-left: 200px;
+    width: fit-content;
+
+}
+
+#mb {
+    border-color: rgb(119, 119, 204);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 20px;
+}

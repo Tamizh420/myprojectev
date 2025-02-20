@@ -1,0 +1,62 @@
+/* Container Style */
+.container-style {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    /* light background for contrast */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+/* Info Container for each entry */
+.info-container {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for text elements */
+.styled-text {
+    font-size: 18px;
+    margin: 10px 0;
+
+    /* Orange color for text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Label Text Style */
+.label-text {
+    font-weight: bold;
+    color: #fd7e2a;
+    /* Jio-like blue for the labels */
+}
+
+/* Hover effect to enhance user interaction */
+.info-container:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+/* For better spacing and organization */
+.info-container h5 {
+    margin: 12px 0;
+}
+
+/* Mobile responsiveness: adjust padding and layout */
+@media (max-width: 768px) {
+    .container-style {
+        padding: 15px;
+    }
+
+    .info-container {
+        padding: 10px;
+    }
+
+    .styled-text {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,86 @@
+/* General EV Page Styling */
+.ev {
+    background-color: #f3f4f7;
+    /* Soft background for a clean, modern look */
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Introduction Section */
+.intro-section {
+    text-align: center;
+    background-image: url('./BlogHeader-4-copy.png');
+    /* Blue color for a techy look */
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Features Section */
+.features {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.features h2 {
+
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Call to Action Button */
+.cta {
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #fd7e2a;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #fd7e2a;
+    /* Slightly darker shade for hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro-section {
+        font-size: 35px;
+        /* Reduce font size on smaller screens */
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    .features ul li {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+}

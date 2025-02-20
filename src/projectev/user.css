@@ -1,0 +1,23 @@
+.row {
+    background-color: rgba(54, 47, 47, 0.767);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+#box {
+    background-color: bisque;
+    color: rgb(49, 43, 43);
+    border: aqua;
+    font-size: 2pc;
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+
+#box:hover {
+    color: red;
+    box-shadow: 0px 0px 10px aqua;
+    box-sizing: border-box;
+}
